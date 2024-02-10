@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping({"/bmi"})
-@CrossOrigin({"http://localhost:3000"})
+@CrossOrigin({"*"})
 public class BmiController {
     @Autowired
     private BmiService bmiService;
